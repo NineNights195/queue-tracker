@@ -8,6 +8,12 @@ function App() {
 
   return (
     <>
+    <head>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="/src/App.css" rel="stylesheet" />
+    </head>
+    <body>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -28,6 +34,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+    </body>
     </>
   )
 }
